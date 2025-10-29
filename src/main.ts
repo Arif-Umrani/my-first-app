@@ -4,6 +4,9 @@ import { App } from './app/app';
 
 // Import by Arif for bootstrap js files through NPM
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { routes } from './app/app.routes';
+import { provideRouter } from '@angular/router';
 
-bootstrapApplication(App, appConfig)
-  .catch((err) => console.error(err));
+bootstrapApplication(App, {
+  providers: [provideRouter(routes)]
+});
