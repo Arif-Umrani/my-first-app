@@ -19,7 +19,7 @@ export const routes: Routes = [
   },
 
   {
-    path: 'error404',
+    path: '**',
     component: Error404
   },
   // todo: not found page route
