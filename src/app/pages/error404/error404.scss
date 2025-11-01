@@ -29,27 +29,26 @@ $text64: 64px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // margin-top: 200px;
-  padding: 200px;
+  padding: 100px;
 
   .display-1 {
-    font-size: 200px;
+    font-size: 100px;
     font-weight: bold;
     color: rgb(210, 202, 94);
   }
 
   h3 {
-    font-size: $text64;
+    font-size: $text48;
     font-weight: 700;
   }
 
   p {
-    font-size: $text36;
+    font-size: $text24;
   }
   
   .button {
     padding: 10px 50px;
-    font-size: $text36;
+    font-size: $text24;
     border: 0;
     border-radius: 10px;
     text-decoration: none;
