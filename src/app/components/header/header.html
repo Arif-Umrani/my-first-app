@@ -1,4 +1,48 @@
-<nav class="navbar navbar-expand-sm navbar-light">
+<header class="header">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light position-relative">
+      <div class="container d-flex icon-nav flex-md-row-reverse">
+        <div class="d-flex gap-4">
+          <a href="#"><img src="assets/icons/account_alert.png" alt="home alert icon"></a>
+          <a href="#"><img src="assets/icons/4dots_shop_icon.png" alt="dot square"></a>
+          <a href="#"><img src="assets/icons/icons_heart.png" alt="heart icon"></a>
+          <a href="#"><img src="assets/icons/icons_search.png" alt="search icon"></a>
+          
+          <!-- <a href="#!"><img src={searchIcon} alt="search icon" /></a>
+          <a href="#!"><img src={heartIcon} alt="heart icon" /></a>
+          <a href="#!"><img src={cartIcon} alt="cart icon" /></a> -->
+        </div>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#textNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-nav" id="textNavbar">
+            <ul class="navbar-nav d-flex">
+              <li class="nav-item">
+                <a class="nav-link" routerLink="home">Home</a>
+                <!-- <Link to="/" class="nav-link">Home</Link> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink="services">Services</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" routerLink="">Error404</a> -->
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="#!">Contact</a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+
+
+<!-- <nav class="navbar navbar-expand-sm navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" routerLink="">HOME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -12,10 +56,7 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="contact">CONTACT</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li> -->
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->

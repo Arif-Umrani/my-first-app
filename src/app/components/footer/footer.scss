@@ -1,0 +1,52 @@
+// Color Variables
+$blackColor: #000000;
+$grayColor: #9F9F9F;
+$lightGray: #D9D9D9;
+$white: #FFFFFF;
+$lightPinkish: #F4F4F4;
+$lightYellow: #FBEBB5;
+$bgLightYellow: #FFF9E5;
+
+// Font Size Variables
+$text16: 16px;
+$text20: 20px;
+$text24: 24px;
+$text36: 36px;
+$text48: 48px;
+$text64: 64px;
+
+// Mixins
+@mixin underline-link {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 11px;
+  cursor: pointer;
+}
+
+.footer-address {
+    color: $grayColor;
+    margin-top: 206px;
+    padding: 0;
+  }
+
+  .footer-title {
+    color: $grayColor;
+    margin-top: 100px;
+  }
+
+  .footer-link {
+    a {
+      color: $blackColor;
+      text-decoration: none;
+    }
+
+    .disabled {
+      color: $grayColor;
+    }
+
+    .black-underline {
+      text-decoration: underline;
+      text-decoration-color: $blackColor;
+    }
+  }
