@@ -6,7 +6,7 @@ import { Error404 } from './pages/error404/error404';
 
 export const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: Home,
   },
   {
@@ -19,7 +19,7 @@ export const routes: Routes = [
   },
 
   {
-    path: '',
+    path: 'error404',
     component: Error404
   },
   // todo: not found page route
